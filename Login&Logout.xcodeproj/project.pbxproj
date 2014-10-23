@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E22B46619C15CA900F6AC3E /* loginSuccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E22B46519C15CA900F6AC3E /* loginSuccessViewController.m */; };
 		1E91FE0119C03B3300780B2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E91FE0019C03B3300780B2F /* Foundation.framework */; };
 		1E91FE0319C03B3300780B2F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E91FE0219C03B3300780B2F /* CoreGraphics.framework */; };
 		1E91FE0519C03B3300780B2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E91FE0419C03B3300780B2F /* UIKit.framework */; };
@@ -21,6 +22,7 @@
 		1E91FE2219C03B3400780B2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E91FE0419C03B3300780B2F /* UIKit.framework */; };
 		1E91FE2A19C03B3400780B2F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1E91FE2819C03B3400780B2F /* InfoPlist.strings */; };
 		1E91FE2C19C03B3400780B2F /* Login_LogoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E91FE2B19C03B3400780B2F /* Login_LogoutTests.m */; };
+		1E9A13E119C991C7001341B4 /* regViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E9A13E019C991C7001341B4 /* regViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E22B46419C15CA900F6AC3E /* loginSuccessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loginSuccessViewController.h; sourceTree = "<group>"; };
+		1E22B46519C15CA900F6AC3E /* loginSuccessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loginSuccessViewController.m; sourceTree = "<group>"; };
 		1E91FDFD19C03B3300780B2F /* Login&Logout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Login&Logout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E91FE0019C03B3300780B2F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1E91FE0219C03B3300780B2F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +57,8 @@
 		1E91FE2719C03B3400780B2F /* Login&LogoutTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Login&LogoutTests-Info.plist"; sourceTree = "<group>"; };
 		1E91FE2919C03B3400780B2F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1E91FE2B19C03B3400780B2F /* Login_LogoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Login_LogoutTests.m; sourceTree = "<group>"; };
+		1E9A13DF19C991C7001341B4 /* regViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = regViewController.h; sourceTree = "<group>"; };
+		1E9A13E019C991C7001341B4 /* regViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = regViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,12 +118,16 @@
 		1E91FE0619C03B3300780B2F /* Login&Logout */ = {
 			isa = PBXGroup;
 			children = (
+				1E9A13DF19C991C7001341B4 /* regViewController.h */,
+				1E9A13E019C991C7001341B4 /* regViewController.m */,
 				1E91FE0F19C03B3300780B2F /* rabAppDelegate.h */,
 				1E91FE1019C03B3300780B2F /* rabAppDelegate.m */,
 				1E91FE1219C03B3300780B2F /* Main.storyboard */,
 				1E91FE1519C03B3300780B2F /* rabViewController.h */,
 				1E91FE1619C03B3300780B2F /* rabViewController.m */,
 				1E91FE1819C03B3300780B2F /* Images.xcassets */,
+				1E22B46419C15CA900F6AC3E /* loginSuccessViewController.h */,
+				1E22B46519C15CA900F6AC3E /* loginSuccessViewController.m */,
 				1E91FE0719C03B3300780B2F /* Supporting Files */,
 			);
 			path = "Login&Logout";
@@ -250,8 +260,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E22B46619C15CA900F6AC3E /* loginSuccessViewController.m in Sources */,
 				1E91FE1119C03B3300780B2F /* rabAppDelegate.m in Sources */,
 				1E91FE0D19C03B3300780B2F /* main.m in Sources */,
+				1E9A13E119C991C7001341B4 /* regViewController.m in Sources */,
 				1E91FE1719C03B3300780B2F /* rabViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +469,7 @@
 				1E91FE3119C03B3400780B2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1E91FE3219C03B3400780B2F /* Build configuration list for PBXNativeTarget "Login&LogoutTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +478,7 @@
 				1E91FE3419C03B3400780B2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
